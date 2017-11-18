@@ -1,14 +1,9 @@
-==========
-==========
-CONFVPS BETA
 
-UM SCRIPT PARA GERENCIAR SUA VPS
----------
-
-Instalador (Recomendado)
-------------------------
-
-Obs: Execute como ROOT
+CONFVPS BETA UM SCRIPT PARA GERENCIAR SUA VPS
+------------------------------------------------------------------------------------------------------------------------
+INSTALADOR [ Recomendado]
+------------------------------------------------------------------------------------------------------------------------
+Execute como ROOT
 
 ::  
 
@@ -18,6 +13,7 @@ Obs: Execute como ROOT
 
 
 ::
-# com a instalação terminada execulte o comando:
+------------------------------------------------------------------------------------------------------------------------
+# com a instalação terminada execulte o comando
 
-# ==> CONFVPS
+> CONFVPS
