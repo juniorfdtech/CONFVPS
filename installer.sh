@@ -9,12 +9,12 @@ echo "$IP" >/etc/IP
 echo "$IP" >/etc/IPMENU
 echo "$nome" >/etc/dono
 clear
-echo -e "\033[0m                \033[47;30mATUALIZANDO CONFVPS 2.0... \033[0m" 
+echo -e "\033[0m                \033[47;30mATUALIZANDO CONFVPS BETA... \033[0m" 
 if yum -y update 1>/dev/null 2>/dev/null
 then
 yum -y update 1>/dev/null 2>/dev/null
 yum -y install git 1>/dev/null 2>/dev/null
-git clone https://github.com/GlEmYsSoN-LiNuX/CONFVPS.git 1>/dev/null 2>/dev/null
+git clone https://github.com/borges1k6/CONFVPS.git 1>/dev/null 2>/dev/null
 cd CONFVPS
 rm -rf README.md
 rm -rf install
@@ -30,10 +30,10 @@ echo -e "\033[0;32mUSE O COMANDO:\033[1;37m CONFVPS"
 echo -e "\033[0;32mPARA ENTRA NO MENU DO CONFVPS...!"
 else
 clear
-echo -e "\033[0m                \033[47;30mINSTALANDO CONFVPS 2.0... \033[0m" 
+echo -e "\033[0m                \033[47;30mINSTALANDO CONFVPS BETA... \033[0m" 
 apt-get update 1>/dev/null 2>/dev/null
 apt-get install -y git 1>/dev/null 2>/dev/null
-git clone https://github.com/GlEmYsSoN-LiNuX/CONFVPS.git 1>/dev/null 2>/dev/null
+git clone https://github.com/borges1k6/CONFVPS.git 1>/dev/null 2>/dev/null
 cd CONFVPS
 rm -rf README.md
 rm -rf installer.sh
